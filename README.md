@@ -1,58 +1,42 @@
 # JourneyDB
 
-[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)  
+[[Project Page]]() [[Paper]]() [[HuggingFace]]() [[OpenDataLab]]()
 
-![image](https://github.com/KeqiangSun/JourneyDB/blob/main/assets/mjdb_teaser_crop.jpg)
+![image](./assets/jdb_teaser_small.jpg)
 
-**CelebAMask-HQ** is a large-scale face image dataset that has **30,000** high-resolution face images selected from the CelebA dataset by following CelebA-HQ. Each image has segmentation mask of facial attributes corresponding to CelebA.
+**JourneyDB** is a large-scale generated image understanding dataset that contains **4,429,295** high-resolution Midjourney images, annotated with corresponding **text prompt**, **image caption** and **visual question answering**.
 
-The masks of CelebAMask-HQ were manually-annotated with the size of **512 x 512** and **19 classes** including all facial components and accessories such as skin, nose, eyes, eyebrows, ears, mouth, lip, hair, hat, eyeglass, earring, necklace, neck, and cloth. 
+**JourneyDB** supports **4** downstream tasks, i.e. **Prompt Inversion**, **Style Retrieval**, **Image Caption**, and **Visual Question Answering**.
 
-CelebAMask-HQ can be used to **train and evaluate algorithms of face parsing, face recognition, and GANs for face generation and editing**.
+## Data Samples
+We provide several examples to show the contents of each instance of the dataset. For each image instance, we acquire the corresponding text prompts used to generate the images with Midjourney. Furhtermore, we employ the GPT3.5 to generate the caption and VAQ groundtruth.
+![image](./assets/jdb_samples_small.jpeg)
 
-* If you need the identity labels and the attribute labels of the images, please send request to the [CelebA team](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
+## Benchmarks
+Our dataset supports **4** downstream tasks, i.e. **Prompt Inversion**, **Style Retrieval**, **Image Caption**, and **Visual Question Answering**. We evaluate many existing methods on these tasks and provide a comprehensive benchmark. Please see our [Paper]() for more details.
 
-* Demo of interactive facial image manipulation
+* **Image Caption.** We show some samples from the validation set of JourneyDB captioning. The examples show the gap between the realistic images and the AI-generated images. And the general visual-language model still need some enhancement to handle generated contents.
+![image](./assets/jdb_caption_small.jpg)
 
-![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/demo.gif)
+* **Visual Question Answering** 
+We visualize some results of BLIP-2 for Multiple-Choice Visual Question Answering. The top row shows style-relevant questions and the bottom row shows content-relevant questions. It once again demonstrats the difficulty to handle the generated contents.
+![image](./assets/jdb_vqa_small.jpg)
 
-## Sample Images
+## JourneyDB Dataset Downloads
 
-![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample.png)
+* Mega: [downloading link](https://mega.nz/folder/tYpAVYQT#u0-UvS1rKf2A8-1MNH2waA)
+* Baidu Drive: [downloading link]()
 
-## Face Manipulation Model with CelebAMask-HQ
-CelebAMask-HQ can be used on several research fields including: facial image manipulation, face parsing, face recognition, and face hallucination. We showcase an application on interactive facial image manipulation as bellow:
 
-* Samples of interactive facial image manipulation
-
-![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample_interactive.png)
-
-## CelebAMask-HQ Dataset Downloads
-* Google Drive: [downloading link](https://drive.google.com/open?id=1badu11NqxGf6qM3PTTooQDJvQbejgbTv)
-* Baidu Drive: [downloading link](https://pan.baidu.com/s/1wN1E-B1bJ7mE1mrn9loj5g)
-
-## Related Works
-* **CelebA** dataset:<br/>
-Ziwei Liu, Ping Luo, Xiaogang Wang and Xiaoou Tang, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
-* **CelebA-HQ** was collected from CelebA and further post-processed by the following paper :<br/>
-Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
-
-## Dataset Agreement
-* The CelebAMask-HQ dataset is available for **non-commercial research purposes** only.
+* The JourneyDB dataset is available for **non-commercial research purposes** only.
+* All images of the JourneyDB dataset are obtained from the Internet which are not property of MMLAB, The Chinese University of Hong Kong. The MMLAB is not responsible for the content nor the meaning of these images.
 * You agree **not to** reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.
-* You agree **not to** further copy, publish or distribute any portion of the CelebAMask-HQ dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
-
-## Related Projects using CelebAMask-HQ
-* [SPADE-TensorFlow](https://github.com/taki0112/SPADE-Tensorflow)
-* [FaceParsing-PyTorch](https://github.com/zllrunning/face-parsing.PyTorch)
+* You agree **not to** further copy, publish or distribute any portion of the JourneyDB dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
+* The MMLAB reserves the right to terminate your access to the CelebA dataset at any time.
 
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
 ```
-@inproceedings{CelebAMask-HQ,
-  title={MaskGAN: Towards Diverse and Interactive Facial Image Manipulation},
-  author={Lee, Cheng-Han and Liu, Ziwei and Wu, Lingyun and Luo, Ping},
-  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2020}
+@inproceedings{
 }
 ```
