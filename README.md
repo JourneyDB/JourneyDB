@@ -1,6 +1,6 @@
 # JourneyDB
 
-[[Project Page]](https://journeydb.github.io) [[Paper]]() [[HuggingFace]](https://huggingface.co/datasets/kqsun/JourneyDB) [[OpenDataLab]]()
+[[Project Page]](https://journeydb.github.io) [[Paper]]() [[HuggingFace]](https://huggingface.co/datasets/JourneyDB/JourneyDB) [[OpenDataLab]]()
 
 ![image](./assets/jdb_teaser_small.jpg)
 
@@ -54,6 +54,9 @@ The JourneyDB dataset is available under the customized [Terms of Usage](./asset
 
 ### Contributions
 
-[Junting Pan](https://junting.github.io)\*, [Keqiang Sun](https://keqiangsun.github.io)\*, [Yuying Ge](https://geyuying.github.io), [Hao Li](https://cpsxhao.github.io), [Haodong Duan](https://kennymckormick.github.io), [Xiaoshi Wu](https://github.com/tgxs002), [Renrui Zhang](https://github.com/ZrrSkywalker), [Aojun Zhou](https://scholar.google.com/citations?user=cC8lXi8AAAAJ&hl=en), [Zipeng Qin](https://www.linkedin.cn/incareer/in/zipeng-bruce-qin-846a65119), [Yi Wang](https://shepnerd.github.io), [Jifeng Dai](https://jifengdai.org), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)
+[Junting Pan](https://junting.github.io)\*, [Keqiang Sun](https://keqiangsun.github.io)\*, [Yuying Ge](https://geyuying.github.io), [Hao Li](https://cpsxhao.github.io), [Haodong Duan](https://kennymckormick.github.io), [Xiaoshi Wu](https://github.com/tgxs002), [Renrui Zhang](https://github.com/ZrrSkywalker), [Aojun Zhou](https://scholar.google.com/citations?user=cC8lXi8AAAAJ&hl=en), [Zipeng Qin](https://www.linkedin.cn/incareer/in/zipeng-bruce-qin-846a65119), [Yi Wang](https://shepnerd.github.io), [Jifeng Dai](https://jifengdai.org), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)<sup>+</sup>
 
-(\* equal contribution)
+(\* equal contribution, <sup>+</sup> corresponding author)
+
+### Contact
+If you have any problem or suggestion, please feel free to open an issue or send emails to the contributors.
