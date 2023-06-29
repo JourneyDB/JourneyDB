@@ -1,4 +1,4 @@
-# JourneyDB Usage Terms
+# Terms of Usage
 
 * All images of the JourneyDB dataset are obtained from the Internet which are not property of MMLAB, The Chinese University of Hong Kong. The MMLAB is not responsible for the content nor the meaning of these images.
 * The JourneyDB dataset is **ONLY** available for **non-commercial research purposes**.

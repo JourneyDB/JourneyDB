@@ -1,6 +1,6 @@
 # JourneyDB
 
-[[Project Page]]() [[Paper]]() [[HuggingFace]]() [[OpenDataLab]]()
+[[Project Page]](https://journeydb.github.io) [[Paper]]() [[HuggingFace]](https://huggingface.co/datasets/kqsun/JourneyDB) [[OpenDataLab]]()
 
 ![image](./assets/jdb_teaser_small.jpg)
 
@@ -26,6 +26,7 @@ We provide several examples to show the contents of each instance of the dataset
 ![image](./assets/jdb_samples_small.jpeg)
 
 ### Data Splits
+We provide detailed statistics for each split subset in the following table. We randomly split the whole dataset into roughly 20 : 1 to obtain the training and validation set. The training set contains 4,189,737 labeled images and 1,385,317 labeled prompts. The validation set contains 235,156 images and 82,093 prompts. And we additionally sample a testing set for manual filtering. The testing set contains 5,402 images and 5,171 prompts.
 
 |                |   Image   |   Prompt  | Labeled Image | Labeled Prompt |  Style QA | Content QA |
 |----------------|:---------:|:---------:|:-------------:|:--------------:|:---------:|:----------:|
@@ -53,4 +54,6 @@ The JourneyDB dataset is available under the customized [Terms of Usage](./asset
 
 ### Contributions
 
-[Keqiang Sun](https://keqiangsun.github.io), [Junting Pan](https://junting.github.io), [Yuying Ge](https://geyuying.github.io), [Hao Li](https://cpsxhao.github.io), [Haodong Duan](https://kennymckormick.github.io), [Xiaoshi Wu](https://github.com/tgxs002), [Renrui Zhang](https://github.com/ZrrSkywalker), [Aojun Zhou](https://scholar.google.com/citations?user=cC8lXi8AAAAJ&hl=en), [Zipeng Qin](https://www.linkedin.cn/incareer/in/zipeng-bruce-qin-846a65119), [Yi Wang](https://shepnerd.github.io), [Jifeng Dai](https://jifengdai.org), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)
+[Junting Pan](https://junting.github.io)\*, [Keqiang Sun](https://keqiangsun.github.io)\*, [Yuying Ge](https://geyuying.github.io), [Hao Li](https://cpsxhao.github.io), [Haodong Duan](https://kennymckormick.github.io), [Xiaoshi Wu](https://github.com/tgxs002), [Renrui Zhang](https://github.com/ZrrSkywalker), [Aojun Zhou](https://scholar.google.com/citations?user=cC8lXi8AAAAJ&hl=en), [Zipeng Qin](https://www.linkedin.cn/incareer/in/zipeng-bruce-qin-846a65119), [Yi Wang](https://shepnerd.github.io), [Jifeng Dai](https://jifengdai.org), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/)
+
+(\* equal contribution)
