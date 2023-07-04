@@ -66,3 +66,11 @@ The JourneyDB dataset is available under the customized [Terms of Usage](./asset
 
 ### Contact
 If you have any problem or suggestion, please feel free to open an issue or send emails to the contributors.
+
+## TODO List
+- [x] Project Page
+- [x] Technical Report
+- [] Release Dataset
+- [] Release Dataset Tools
+- [] Release Evaluation Scripts
+- [] Release Pretrained Model
