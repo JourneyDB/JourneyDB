@@ -74,3 +74,4 @@ If you have any problem or suggestion, please feel free to open an issue or send
 - [ ] Release Dataset Tools
 - [ ] Release Evaluation Scripts
 - [ ] Release Pretrained Model
+- [ ] Stable Diffusion Version
