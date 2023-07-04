@@ -1,6 +1,6 @@
 # JourneyDB
 
-[[Project Page]](https://journeydb.github.io) [[Paper]]() [[HuggingFace]](https://huggingface.co/datasets/JourneyDB/JourneyDB) [[OpenDataLab]]()
+[[Project Page]](https://journeydb.github.io) [[Paper]](https://arxiv.org/abs/2307.00716) [[Code]](https://github.com/JourneyDB/JourneyDB) [[HuggingFace]](https://huggingface.co/datasets/JourneyDB/JourneyDB) [[OpenDataLab]]()
 
 ![image](./assets/jdb_teaser_small.jpg)
 
@@ -12,7 +12,7 @@
 
 ### Supported Tasks
 
-**JourneyDB** supports **4** downstream tasks, i.e. **Prompt Inversion**, **Style Retrieval**, **Image Caption**, and **Visual Question Answering**. We evaluate many existing methods on these tasks and provide a comprehensive benchmark. Please see our [Paper]() for more details.
+**JourneyDB** supports **4** downstream tasks, i.e. **Prompt Inversion**, **Style Retrieval**, **Image Caption**, and **Visual Question Answering**. We evaluate many existing methods on these tasks and provide a comprehensive benchmark. Please see our [Paper](https://arxiv.org/abs/2307.00716) for more details.
 
 ## Dataset Details
 
@@ -48,7 +48,13 @@ The JourneyDB dataset is available under the customized [Terms of Usage](./asset
 ### Citation
 
 ```
-@inproceedings{
+@misc{pan2023journeydb,
+      title={JourneyDB: A Benchmark for Generative Image Understanding}, 
+      author={Junting Pan and Keqiang Sun and Yuying Ge and Hao Li and Haodong Duan and Xiaoshi Wu and Renrui Zhang and Aojun Zhou and Zipeng Qin and Yi Wang and Jifeng Dai and Yu Qiao and Hongsheng Li},
+      year={2023},
+      eprint={2307.00716},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
