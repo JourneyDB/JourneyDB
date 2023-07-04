@@ -70,7 +70,7 @@ If you have any problem or suggestion, please feel free to open an issue or send
 ## TODO List
 - [x] Project Page
 - [x] Technical Report
-- [] Release Dataset
-- [] Release Dataset Tools
-- [] Release Evaluation Scripts
-- [] Release Pretrained Model
+- [ ] Release Dataset
+- [ ] Release Dataset Tools
+- [ ] Release Evaluation Scripts
+- [ ] Release Pretrained Model
