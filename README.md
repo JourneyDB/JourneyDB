@@ -4,6 +4,10 @@
 
 ![image](./assets/jdb_teaser_small.jpg)
 
+
+## Updates
+ - 2023.07.18: The dataset is publically available. Fill in the [form](https://docs.google.com/forms/d/e/1FAIpQLSeiciK0g0IA46_hFaitRhdpihhpjqt3helJNT68y-C8MfKhiQ/viewform?usp=sf_link) and check it out!
+
 ## Dataset Description
 
 ### Summary
@@ -70,7 +74,7 @@ If you have any problem or suggestion, please feel free to open an issue or send
 ## TODO List
 - [x] Project Page
 - [x] Technical Report
-- [ ] Release Dataset
+- [x] Release Dataset
 - [ ] Release Dataset Tools
 - [ ] Release Evaluation Scripts
 - [ ] Release Pretrained Model
