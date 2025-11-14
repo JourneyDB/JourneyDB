@@ -52,13 +52,13 @@ The JourneyDB dataset is available under the customized [Terms of Usage](./asset
 ### Citation
 
 ```
-@misc{pan2023journeydb,
-      title={JourneyDB: A Benchmark for Generative Image Understanding}, 
-      author={Junting Pan and Keqiang Sun and Yuying Ge and Hao Li and Haodong Duan and Xiaoshi Wu and Renrui Zhang and Aojun Zhou and Zipeng Qin and Yi Wang and Jifeng Dai and Yu Qiao and Hongsheng Li},
-      year={2023},
-      eprint={2307.00716},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{sun2023journeydb,
+  title={Journeydb: A benchmark for generative image understanding},
+  author={Sun, Keqiang and Pan, Junting and Ge, Yuying and Li, Hao and Duan, Haodong and Wu, Xiaoshi and Zhang, Renrui and Zhou, Aojun and Qin, Zipeng and Wang, Yi and others},
+  journal={Advances in neural information processing systems},
+  volume={36},
+  pages={49659--49678},
+  year={2023}
 }
 ```
 
